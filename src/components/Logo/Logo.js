@@ -5,9 +5,9 @@ import calto from './calto.jpg'
 
 const Logo = () => {
     return (
-        <div className='ma4 mt0'>
-            <Tilt className="Tilt br2 shadow-3" options={{ max : 55 }} style={{ height: 113, width: 150 }} >
-                <div className="Tilt-inner"> <img alt='logo' src={calto}/> </div>
+        <div className='ma4 mt0  '>
+            <Tilt className="Tilt br-100 shadow-3 " options={{ max : 55 }} style={{ height: 113, width: 150 }} >
+                <div className="Tilt-inner Tilt "> <img className='Tilt center' alt='logo' src={calto}/> </div>
             </Tilt>
 
         </div>
